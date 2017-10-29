@@ -49,7 +49,7 @@ class IPStreetCharting:
             text=data['current_owner'],
             marker=dict(
                 size=10,
-                color=data['application_date'],
+                color='rgba(152, 0, 0, .8)',
                 line=dict(
                     width=2,
                     color='rgb(0, 0, 0)'
